@@ -28,10 +28,6 @@ summary:
 +
 目前在公有雲上提供Astra Control Service軟體版本的文件。
 
-* https://docs.netapp.com/us-en/astra-data-store/["Astra Data Store文件"^]
-+
-部署在客戶內部環境中的Astra Data Store軟體目前版本的文件。
-
 * https://docs.netapp.com/us-en/trident/["Astra Trident文件"^]
 +
 由NetApp維護的開放原始碼儲存協調程式Astra Trident軟體目前版本的文件。

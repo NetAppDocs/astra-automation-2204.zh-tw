@@ -321,10 +321,6 @@
   <block id="4c5c5ddf14933aa945693ada812ede98" category="cell">儲存後端資源代表可由Astra託管叢集和應用程式使用的儲存服務供應商。</block>
   <block id="dd8c5eff0fd4dd0b3760e41db59bfb3a" category="cell">儲存類別</block>
   <block id="8fb50be09f59469582a9c05b97f8517c" category="cell">儲存類別資源代表所探索到的不同類別或類型的儲存設備、可供特定的託管叢集使用。</block>
-  <block id="ec0f2a3052ae80ccfcad8020e8680088" category="cell">儲存設備</block>
-  <block id="5482e18b728d9af600694261c0650975" category="cell">儲存設備資源可讓您存取與Astra Data Store（廣告）類型儲存後端的特定儲存節點相關聯的磁碟。將廣告儲存後端部署為Kubernetes叢集。</block>
-  <block id="fe171fe0421ac266ac1285e64b1311d2" category="cell">儲存節點</block>
-  <block id="2c0709150edcf4371b39572b109c04c3" category="cell">儲存節點資源代表屬於ADS叢集的節點。</block>
   <block id="bd7a9717d29c5ddcab1bc175eda1e298" category="cell">Volume</block>
   <block id="d0600f0c4c9b294b53d39320b3945b84" category="cell">Volume資源代表與託管應用程式相關聯的Kubernetes儲存磁碟區。</block>
   <block id="a4defd5be5a64ad7db7bf34bbb2d7bd5" category="section-title">最新版本的新端點</block>
@@ -800,17 +796,11 @@
   <block id="78ceba6718263592394adb03dc11471c" category="paragraph">您應該檢閱Astra Control REST API目前版本的所有已知問題。已知問題可識別可能導致您無法成功使用產品的問題。</block>
   <block id="186b5474f8ff952677455ef8c6479620" category="admonition">Astra Control REST API 22.04版本沒有新的已知問題。以下所述問題已在先前版本中發現、目前版本仍適用。</block>
   <block id="f977fda19bbfe49b9346f60f532f0704" category="section-title">並未探索後端儲存節點中的所有儲存裝置</block>
-  <block id="13595bcf3f8022567de41bcd09ef92b2" category="paragraph">發出REST API呼叫以擷取儲存節點中定義的儲存裝置時、只會探索Astra Data Store裝置。並非所有裝置都會歸還。</block>
-  <block id="fd341dfea170932946910997510c48e8" category="section-title">Astra Data Store儲存後端處於未知狀態</block>
-  <block id="e1c83179f57e62cb00fbb2646ef58e6e" category="paragraph">Astra Data Store儲存後端在發出API呼叫以擷取儲存後端後端後端後端時、會處於「未知」狀態。在這種情況下、儲存後端實際上仍然可用、可以與通訊。不過、儲存後端內的元件可能處於不正常狀態、因此需要將其恢復為正常狀態、以便儲存後端顯示為「可用」。</block>
   <block id="e81b0f8fae224ca0c3d3258b75a989dd" category="section-title">Astra Control API授權</block>
   <block id="31862872c35b9509755103831963a7ff" category="paragraph">您可以存取更多資源、以取得協助、並尋找更多有關NetApp雲端服務與支援、以及一般REST與雲端概念的資訊。</block>
   <block id="3cce5f3eaf76e098ba8e28f7bbba3f92" category="section-title">Astra</block>
   <block id="01d5e4ec3cb4b0c1971b9e8a5199a107" category="paragraph">部署在客戶駐地的Astra Control Center軟體目前版本的文件。</block>
   <block id="9533b0dcff191d66f9ea3fe447bffddc" category="paragraph">目前在公有雲上提供Astra Control Service軟體版本的文件。</block>
-  <block id="be1c3d3113c4023e29e8dd947523c711" category="inline-link">Astra Data Store文件</block>
-  <block id="c1f6a45da7b5911a5f35093ae72bfc7a" category="list-text"><block ref="c1f6a45da7b5911a5f35093ae72bfc7a" category="inline-link-rx"></block></block>
-  <block id="f1078b605bb76543a5137c04c286382d" category="paragraph">部署在客戶內部環境中的Astra Data Store軟體目前版本的文件。</block>
   <block id="14d9b10c6196045941347a9e85704b50" category="inline-link">Astra Trident文件</block>
   <block id="b886ef3e400bd69f357f6981475b14e1" category="list-text"><block ref="b886ef3e400bd69f357f6981475b14e1" category="inline-link-rx"></block></block>
   <block id="5b9e0257ebcdde10e1d11e75a9a03336" category="paragraph">由NetApp維護的開放原始碼儲存協調程式Astra Trident軟體目前版本的文件。</block>
@@ -871,4 +861,5 @@
   <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">版本資訊</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="798161428a705ba47c31cc8ace9316e3" category="doc">Astra Control Automation 22.04文件</block>
+  <block id="c175d41386d298206ec13ff17f141b1c" category="paragraph">發出REST API呼叫以擷取儲存節點中定義的儲存裝置時、並不會傳回所有裝置。</block>
 </blocks>
