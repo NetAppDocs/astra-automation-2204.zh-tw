@@ -825,7 +825,6 @@
   <block id="fa862ec81357f8907a8b75f4d969c590" category="inline-link">RFC編輯器</block>
   <block id="6763d4dfc2fa6c04b08ba1e1b7751f5f" category="list-text"><block ref="6763d4dfc2fa6c04b08ba1e1b7751f5f" category="inline-link-rx"></block></block>
   <block id="ba793efaa4293b35388d140ee9308a68" category="paragraph">Web和網際網路標準的權威來源、以獨特編號的RFC文件集合形式加以維護。</block>
-  <block id="c6c51849eeb1ac322baa3a99b7cd7e43" category="summary">這是Astra Automation的摘要。</block>
   <block id="5050b96b055cfded21a1b69b78b627c2" category="sidebar">Astra Control Automation 22.04文件</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">舊版</block>
   <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">開始使用</block>
@@ -915,4 +914,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="775e2faa120631457b3eb5f26a2f323a" category="sidebar">Astra Control是NetApp軟體產品、可為Kubernetes應用程式提供資料生命週期管理功能。視您的環境而定、有兩種部署模式可供選擇。Astra Control Center和Astra Control Service在特定版本中共用相同的REST API。您可以使用API及其他相關的自動化技術來管理Astra Control部署。</block>
 </blocks>
